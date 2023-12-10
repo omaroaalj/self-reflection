@@ -4,12 +4,17 @@ body {
 }
 
 .block {
-    background-color: orange;
+    background-color:rgb(255, 185, 100);
     border-radius: 6px;
     width: fit-content;
     padding: 1em;
     justify-self: center;
+    border: solid;
     transition: box-shadow 0.3s;
+}
+
+#my-name {
+    background-color: white;
 }
 
 .block:hover {
