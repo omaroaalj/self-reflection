@@ -4,12 +4,14 @@ body {
 }
 
 .block {
+    font-size: 1em;
     background-color:rgb(255, 185, 100);
     border-radius: 6px;
     width: fit-content;
     padding: 1em;
     justify-self: center;
     border: solid;
+    box-shadow: 0px 0px 0px black;
     transition: box-shadow 0.3s;
 }
 
@@ -22,6 +24,7 @@ body {
 }
 
 .block-container {
+    position: relative;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     row-gap: 3em;
@@ -32,5 +35,29 @@ body {
 }
 
 .hidden {
-    opacity: 0;
+    visibility: hidden;
+}
+
+.description {
+    top: 25%;
+    width: 70%;
+    height: 70%;
+    align-self: center;
+    position: absolute;
+    background-color: rgb(255, 185, 100);
+    border: solid;
+    padding: 10px;
+}
+
+.exit-description {
+    font-size: 0.5em;
+    background-color: white;
+    border: solid;
+    border-radius: 20px;
+    box-shadow: 0px 0px 0px black;
+    transition: box-shadow 0.3s;
+}
+
+.exit-description:hover {
+    box-shadow: 5px 5px 5px black;
 }
