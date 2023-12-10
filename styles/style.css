@@ -1,10 +1,26 @@
 body {
     font-family: Arial, sans-serif;
+    font-size: 2em;
 }
 
 .block {
-    background-color: red;
-    border-radius: 5px;
-    padding: 5px;
+    background-color: orange;
+    border-radius: 6px;
     width: fit-content;
+    padding: 1em;
+    justify-self: center;
+}
+
+.block-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    row-gap: 3em;
+}
+
+#my-name {
+    grid-column: 1 / 4;
+}
+
+.hidden {
+    opacity: 0;
 }
