@@ -9,6 +9,11 @@ body {
     width: fit-content;
     padding: 1em;
     justify-self: center;
+    transition: box-shadow 0.3s;
+}
+
+.block:hover {
+    box-shadow: 5px 5px 5px black;
 }
 
 .block-container {
