@@ -1,4 +1,4 @@
-// code based on MDN Web Docs, ChatGPT, and Web Development Udemy class by Angela Yu
+// code based on MDN Web Docs, results from ChatGPT, and Web Development Udemy class by Angela Yu
 
 const blocks = document.querySelectorAll(".block");
 const exitButtons = document.querySelectorAll(".exit-description");

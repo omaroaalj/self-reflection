@@ -1,3 +1,4 @@
+/* part of code based on results from ChatGPT and the MDN docs */
 body {
     font-family: Arial, sans-serif;
     font-size: 2em;
@@ -41,7 +42,7 @@ body {
 .description {
     top: 25%;
     width: 70%;
-    height: 70%;
+    height: fit-content;
     align-self: center;
     position: absolute;
     background-color: rgb(255, 185, 100);
